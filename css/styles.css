@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', light;
   margin: 0;
   padding: 0;
 }
@@ -29,15 +29,14 @@ main img {
 main p a {
   color: #000000;
   font-size: 15px;
-  font-family: 'Inter', light;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
   text-decoration: none;
-  max-width: 200px; /* Establece una anchura máxima para los enlaces */
+  max-width: 200px;
   overflow: hidden;
-  text-overflow: ellipsis; /* Trunca el texto que sobresale con puntos suspensivos */
-  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .datos {
@@ -71,7 +70,15 @@ main p a {
     align-items: center;
   }
 
+  header {
+    font-size: 50px;
+  }
+
   .datos {
     max-width: calc(100% - 50px);
+  }
+
+  .footer {
+    padding: 0px;
   }
 }
