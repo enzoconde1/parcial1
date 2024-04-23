@@ -41,7 +41,7 @@ main p a {
 .datos {
   display: block;
   width: 100%;
-  margin-left: 40px;
+  margin-left: 45px;
   overflow: auto;
   padding: 0 10px;
   flex-grow: 1;
